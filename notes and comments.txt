@@ -1,0 +1,23 @@
+what is a service worker?
+    central event handler for your extension
+    different from web service workers
+    listens for events (closing a tab, interacting with a webpage, etc.)
+
+What is DOM?
+    the elements of a webpage represented in memory
+
+
+Problems
+
+how does background.js work?
+    event listening in javascript
+    what is an extension action?
+
+high level overview of how background.js works
+    when the extension is first installed, (or if the extension is updated or Chrome is updated see runtime.onInstalled event) it sets the actions badge's text to "OFF"
+
+
+What is an action badge?
+    a bit of text that appears over the extension's icon
+
+what is the scripting API?
